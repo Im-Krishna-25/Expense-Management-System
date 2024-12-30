@@ -75,14 +75,14 @@ This project utilizes the following AWS EC2 instances to implement the 3-tier ar
   - Displays an attractive landing page for the Expense Management System.
   - Designed for easy navigation to other parts of the application.
 - **Screenshot**:
-  ![Homepage Interface](interface 1.png)
+  ![Homepage Interface](interface-1.png)
 
 ### Add/View Expense Page
 - **Overview**:
   - Users can add new expenses, including ID, amount, and description.
   - Displays a table of existing expenses with options to update or delete entries.
 - **Screenshot**:
-  ![Add/View Expense Interface](interface 2.png)
+  ![Add/View Expense Interface](interface-2.png)
 
 ---
 
