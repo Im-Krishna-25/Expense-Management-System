@@ -38,6 +38,22 @@ A scalable, secure, and efficient **Expense Management System** designed using a
 
 ---
 
+## 🔒 AWS Instances
+
+This project utilizes the following AWS EC2 instances to implement the 3-tier architecture:
+
+### **Instance Details**
+| Instance Name    | Instance ID       | Instance Type | State    | Availability Zone |
+|------------------|-------------------|---------------|----------|-------------------|
+| Front-End-Server | i-07838c0ec78fc003d | t2.micro      | Running  | us-east-1a        |
+| Application Server (Ap-Server) | i-01cd416c5273e7396 | t2.micro      | Running  | us-east-1a        |
+| Database Server (DB-Server) | i-0041c81a39e626a3e | t2.micro      | Running  | us-east-1a        |
+
+### Screenshot of AWS EC2 Dashboard
+![AWS EC2 Instances](image.png)
+
+---
+
 ## 🎨 Key Contributions
 - **Scalability**:
   - Designed Auto Scaling policies to handle increased application traffic dynamically.
@@ -61,10 +77,10 @@ A scalable, secure, and efficient **Expense Management System** designed using a
 ![Frontend Server](front-end-server.png)
 
 ### Expense Management Interface - Homepage
-![Interface 1](interface 1.png)
+![Interface Homepage](interface 1.png)
 
 ### Expense Management Interface - Add Expense
-![Interface 2](interface 2.png)
+![Interface Add Expense](interface 2.png)
 
 ---
 
@@ -87,4 +103,3 @@ A scalable, secure, and efficient **Expense Management System** designed using a
 3. To deliver an interactive and user-friendly expense tracking interface.
 
 ---
-
